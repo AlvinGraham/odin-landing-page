@@ -1,0 +1,16 @@
+body {
+  height: 100vh;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  background-color: #1F2937;
+
+}
+
+.footer {
+  display: flex;
+  background-color: #1F2937;
+
+}
