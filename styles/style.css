@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 body {
-  height: 100vh;
+  font-family: Roboto, sans-serif;
   margin: 0 auto;
   width: 1000px;
   display: flex;
@@ -83,6 +85,69 @@ a {
   margin-left: auto;
   height: 300px;
   width: 400px;
+}
+
+.information {
+display: flex;
+flex-flow: column nowrap;
+background-color: white;
+padding: 10px;
+
+}
+
+.infoHeader {
+  color: #1F2937;
+  font-size: 36px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.infoCards {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.cardImg {
+  height: 148px;
+  width: 148px;
+  border: 2px solid blue;
+  border-radius: 10px;
+}
+
+.cardNotes {
+  width: 150px;
+  margin: 0px;
+  text-align: center;
+}
+
+.quote {
+  background-color: #E5E7EB;
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 10px;
+}
+
+.quoteText {
+font-size: 36px;
+align-self: center;
+font-style: italic;
+color: #1F2937;
+font-weight: 200;
+margin: 0px;
+width: 90%;
+
+}
+
+.quoteAuthor {
+font-weight: bold;
+align-self: flex-end;
+margin: 0px;
 }
 
 .footer {
