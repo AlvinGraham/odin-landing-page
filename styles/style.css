@@ -138,7 +138,7 @@ font-size: 36px;
 align-self: center;
 font-style: italic;
 color: #1F2937;
-font-weight: 200;
+font-weight: 300;
 margin: 0px;
 width: 90%;
 
@@ -150,8 +150,68 @@ align-self: flex-end;
 margin: 0px;
 }
 
+.callToAction { 
+  height: 300px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  background-color: white;
+}
+
+.actionBanner {
+  background-color: #3882F6;
+  display: flex;
+  padding: 30px 10px;
+  justify-content: space-around;
+
+}
+
+.leftBanner {
+font-size: 18px;
+color: #F9FAF8;
+display: flex;
+flex-flow: column nowrap;
+justify-content: center;
+
+}
+
+
+
+
+.actionTime {
+font-size: 24px;
+font-weight: bold;
+margin: 0px;
+}
+
+.actionInstructions {
+font-weight: 300;
+margin: 0px;
+}
+
+.rightBanner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+
+}
+
+.signupBtn {
+background-color: transparent;
+color: #F9FAF8;
+border: 1px solid #F9FAF8;
+padding: 10px 20px;
+border-radius: 16px;
+
+}
+
 .footer {
   display: flex;
   background-color: #1F2937;
-
+  justify-content: center;
+  align-items: center;
+  height: 75px;
+  color: #E5E7EB;
 }
+
