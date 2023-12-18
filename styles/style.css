@@ -1,7 +1,7 @@
 body {
   height: 100vh;
   margin: 0 auto;
-  width: 1280px;
+  width: 1000px;
   display: flex;
   flex-flow: column nowrap;
   background-color: #1F2937;
@@ -39,6 +39,50 @@ ul {
 
 a { 
   cursor: pointer;
+}
+
+.hero {
+  display: flex;
+  padding: 10px;
+}
+
+.heroInfo {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-start;
+  
+}
+
+.heroMainText {
+  font-size: 48px;
+  font-weight: 800;
+  color: #F9FAF8;
+  margin: 0px;
+}
+
+.heroSecondaryText {
+  color: #E5E7EB;
+  margin: 0px;
+  padding-bottom: 10px;
+}
+
+.heroBtn {
+  flex-grow: 0;
+  display: block;
+  background-color: #3882F6;
+  color: #E5E7EB;
+  align-self: flex-start;
+  padding: 5px 10px;
+  border-radius: 7px;
+}
+
+.heroImg {
+  background-color: grey;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  height: 300px;
+  width: 400px;
 }
 
 .footer {
